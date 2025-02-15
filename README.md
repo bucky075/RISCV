@@ -14,3 +14,4 @@ A bubble sort program (in `sw/bubble_sort.c`) is provided and compiled using the
 
 ## Directory Structure
 
+my-riscv-pipeline/ ├── .devcontainer │ ├── devcontainer.json │ └── Dockerfile ├── rtl │ ├── top.v │ ├── if_stage.v │ ├── id_stage.v │ ├── ex_stage.v │ ├── mem_stage.v │ ├── wb_stage.v │ ├── forwarding_unit.v │ └── hazard_detection_unit.v ├── testbench │ └── cpu_tb.v ├── sw │ ├── bubble_sort.c │ └── Makefile ├── scripts │ └── run_sim.sh └── README.md
